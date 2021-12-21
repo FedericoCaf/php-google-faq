@@ -67,12 +67,6 @@ $faq = [
   ],
   
 
-
-
-
-
-
-
 ]
 
 
@@ -86,31 +80,45 @@ $faq = [
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha512-u7ppO4TLg4v6EY8yQ6T6d66inT0daGyTodAi6ycbw9+/AU8KMLAF7Z7YGKPMRA96v7t+c7O1s6YCTGkok6p9ZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>google-faq</title>
-  <style>
-
-    body{
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-    }
-
-     .fc-container{
-       width: 1200px;
-       margin: 0 auto;
-     }
-
-     p{
-       font-size: 15px;
-     }
-
-     li{
-       padding: 10px;
-     }
-
-  </style>
 </head>
 <body>
+
+<header>
+  <div class="top-header">
+    <div class="top-header-left">
+      <div class="logo-img">
+        <img src="google-gdd4a97aab_1280.png" alt="">
+      </div>
+      <div class="top-title">
+        <h2>Privacy e termini</h2>
+      </div>
+    </div>
+    <div class="top-header-right">
+      <div class="options-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="user-logo">
+        <i class="fas fa-user"></i>
+      </div>
+    </div>
+    
+  </div>
+  <div class="menu-header">
+     <ul>
+       <li>Introduzione</li>
+       <li>Norme sulla privacy</li>
+       <li>Termini di servizio</li>
+       <li>Tecnologie</li>
+       <li class="active">Domande frequenti</li>
+     </ul>
+  </div>
+    
+</header>
+<div class="div-line"></div>
 
 <div class="fc-container">
 
@@ -123,7 +131,13 @@ $faq = [
     
 </div>
 
-<a href="#"></a>
+
+<footer>
+ <div class="fc-container">
+   
+ </div>
+
+</footer>
   
 </body>
 </html>
