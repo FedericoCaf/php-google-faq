@@ -133,8 +133,25 @@ $faq = [
 
 
 <footer>
- <div class="fc-container">
-   
+ <div class="container-footer">
+   <ul>
+     <li>Google</li>
+     <li>Tutto su Google</li>
+     <li>Privacy</li>
+     <li>Termini</li>
+   </ul>
+   <div class="div-select">
+     <div class="chat-icon">
+       <i class="fas fa-comment-alt"></i>
+     </div>
+      <select name="select" id="">
+        <option value="">Italiano</option>
+        <option value="">Inglese</option>
+        <option value="">Spagnolo</option>
+        <option value="">Tedesco</option>
+        <option value="">Francese</option>
+      </select>
+   </div>
  </div>
 
 </footer>
